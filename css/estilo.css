@@ -187,7 +187,7 @@ body {
 }
 
 .nav-content {
-    max-width: 1200px;
+    /*max-width: 1700px;*/
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -694,6 +694,25 @@ body {
 
 
 .espaciado{
-    white-space: pre-line; 
+    /*white-space: pre-line; */
     margin: 0 0 1rem;
+    text-align: justify;
+}
+
+/* Estilos para enlaces de temas ICI */
+.espaciado a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2d5016;
+    transition: color 0.3s ease;
+    text-align: justify;
+}
+
+.espaciado a:hover {
+    color: #8b7355;
+    text-decoration: none;
+}
+ol{
+    margin-left: 40px;
 }
